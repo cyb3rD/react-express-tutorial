@@ -17,6 +17,9 @@ h1 {
   justify-content: space-between;
   align-items: stretch;
   padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #C6C6C6;
+  border-radius: 5px;
 }
 
 .item-name {
