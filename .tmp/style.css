@@ -1,4 +1,57 @@
+
+body {
+  padding-top: 3rem;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+.container {
+  display: flex;
+}
+
+.grocery-item {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 10px;
+}
+
+.item-name {
+  font-size: 30px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.btn-buy {
+  border: 1px solid #4C854C;
+  border-radius: 5px;
+  background-color: #4C854C;
+  margin-right: 10px;
+
+}
+
+.btn-unbuy {
+  border: 1px solid #424283;
+  border-radius: 5px;
+  background-color: #424283;
+  color: white;
+  margin-right: 10px;
+}
+
+.puchased-false {
+  height: 40px;
+  background-color: green;
+}
+
 .strikethrough {
   text-decoration: line-through;
   color: slategray;
+}
+
+.grocery-addItem {
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
