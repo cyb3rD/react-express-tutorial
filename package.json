@@ -18,6 +18,7 @@
     "express": "^4.13.4",
     "guid": "0.0.12",
     "jquery": "^2.2.4",
+    "mongoose": "^4.4.20",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "reactify": "^1.1.1",
