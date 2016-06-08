@@ -23,7 +23,7 @@ module.exports = function(app) {
     GroceryItem.findOne({
       _id: req.params.id
     }).remove(function(x) {
-      console.log('... removed.',x );
+      console.log('... removed.', x);
     });
   })
   .patch(function(req,res){
